@@ -8,7 +8,7 @@ fichier = open("Maine-et-Loire.csv","a")
 fichier.write('Nom Prenom;Adresse;Code postale Ville;\n')
 
 
-for i in range(5):
+for i in range(110):
     print('Page ' + str(i) + ' done')
     # specify the url
     urlpage = 'https://www.assistantsmaternels49.fr/index.php?id=1577&page_directe=' + str(i+1)
@@ -24,7 +24,7 @@ for i in range(5):
     index = strsoup.find('<')
     
     if i == 109:
-        rangee = 15
+        rangee = 8
     else:
         rangee = 50
             
