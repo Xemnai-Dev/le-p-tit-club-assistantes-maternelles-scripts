@@ -26,7 +26,7 @@ for i in range(110):
     if i == 109:
         rangee = 8
     else:
-        rangee = 50
+        rangee = 42
             
     for y in range(rangee):
         index = strsoup.find('Voir la fiche de')+16
